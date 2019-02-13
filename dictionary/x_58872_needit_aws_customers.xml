@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="AWS Customers" max_length="40" name="x_58872_needit_aws_customers" type="collection">
+        <element display="true" label="AWS Account Number" max_length="12" name="aws_account_number" type="string"/>
+        <element label="CDW AWS Service Type" mandatory="true" max_length="60" name="cdw_aws_service_type" type="string"/>
+        <element label="Customer Name" mandatory="true" max_length="100" name="customer_name" type="string"/>
+    </element>
+</database>
